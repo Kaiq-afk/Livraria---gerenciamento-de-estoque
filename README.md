@@ -5,7 +5,15 @@ Aplicação MVC simples para gerenciar livros (CRUD). Arquitetura leve: Model, C
 Sistema voltado para livrarias que desejam controlar seus livros em estoque.
 
 ## Como configurar (Passo a passo)
-Iniciar uma conexão com um SGBD sql
+* Iniciar uma conexão com um SGBD sql
+* Acessar o código em um editor de código (VSCode)
+* Colocar as credenciais de conexão (host, password, port etc.) da sua conexão no arquivo "database.php" na pasta "config"
+* Verificar se o dispositivo possui as extenções e linguagens necessárias instaladas (php e PDO_sql)
+  - Caso haja problema com a instalação do php, seguir o tutorial: <https://youtu.be/NIzjRyRmQxU?si=CXJmjhyTfV_4-Kte>
+  - Caso haja problema com o PDO_sql, seguir o tutorial: <https://youtu.be/qQBE0yEZDtc?si=R0qLQoyu-hGxwpoU>
+* Acessar o terminal é inserir o comando "php -S localhost:8000"
+* Clicar no link gerado
+
 
 ## SQL - criar banco / tabela / exemplos
 Execute no MySQL (phpMyAdmin, Workbench ou CLI):
