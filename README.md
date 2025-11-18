@@ -1,5 +1,9 @@
 # Sistema CRUD - Livraria (MVC em PHP + MySQL)
 
+## Equipe
+* Hikaru Kawata
+* Kaique Oliveira de Miranda
+
 ## Descrição
 Aplicação MVC simples para gerenciar livros (CRUD). Arquitetura leve: Model, Controller e Views separados. Conexão via PDO.
 Sistema voltado para livrarias que desejam controlar seus livros em estoque.
